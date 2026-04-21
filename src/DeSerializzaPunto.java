@@ -20,5 +20,8 @@ public class DeSerializzaPunto {
             System.out.println("Errore");
         }
         System.out.println(p.toString());
+        System.out.println(p.String());
+        System.out.println(p.Risultato());
+        System.out.println("la distanza del primo punto dall'origine e: " + p.DistOrigP1() + "," + "la distanza del secondo punto dall'origine: " + p.DistOrigP2());
     }
 }

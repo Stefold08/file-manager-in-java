@@ -1,7 +1,8 @@
 import java.io.*;
+
 public class SerializzaPunto {
     public static void main(String[] args) {
-        Serializzazione p=new Serializzazione(2,3);
+        Serializzazione p=new Serializzazione(2,3, 7, 5);
         ObjectOutputStream output=null;
         try{
             output=new ObjectOutputStream(new FileOutputStream("/home/daniele/IdeaProjects/lettura_file/src/dati.dat"));
